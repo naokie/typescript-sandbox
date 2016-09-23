@@ -1,6 +1,6 @@
 {
   "name": "typescript-sandbox",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,9 +15,12 @@
     "url": "https://github.com/naokie/typescript-sandbox/issues"
   },
   "homepage": "https://github.com/naokie/typescript-sandbox#readme",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "13.1.0",
     "gulp": "3.9.1",
-    "gulp-typescript": "3.0.0",
-    "typescript": "2.0.3"
+    "tsify": "1.0.7",
+    "typescript": "2.0.3",
+    "vinyl-source-stream": "1.1.0"
   }
 }
